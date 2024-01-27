@@ -1,0 +1,36 @@
+form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+}
+
+input,
+textarea,
+select {
+    display: block;
+    margin-top: 10px;
+    background-color: #5a5a5a;
+    border-style: none;
+    border-radius: 5px;
+    height: 20px;
+    resize: none;
+    padding-left: 4px;
+}
+
+textarea {
+    height: 70px;
+}
+
+.form_container {
+    width: 200px;
+    padding: 50px 0 50px 50px;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
